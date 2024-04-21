@@ -4,6 +4,14 @@
 
 @layer base {
     html {
-      font-family: "Proxima Nova", system-ui, sans-serif;
+      font-family: "Inter", system-ui, sans-serif;
+      font-size: 20px; /* Establece un tamaño de fuente base */  
     }
-  }
+}
+
+
+.nav-link{
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+  
