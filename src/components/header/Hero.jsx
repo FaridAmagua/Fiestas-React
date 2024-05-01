@@ -5,10 +5,15 @@ export const Hero = () => {
     <section className="bg-primary h-[90vh]">
       <div className="h-screen flex justify-center items-center bg-gray-200">
         <div className="flex flex-col items-center">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis ex
-          harum eos odio aperiam, quaerat nemo ipsa enim, reiciendis quod
-          cupiditate minima vel. Maiores repellat corporis sint blanditiis quis
-          aliquam!
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/xADfnYAbWZo"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </div>
       </div>
     </section>

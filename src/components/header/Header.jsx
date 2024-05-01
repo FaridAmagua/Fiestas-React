@@ -7,7 +7,7 @@ const Header = () => {
     <header className="flex items-center justify-between xl:justify-start w-full py-4 px-8 h-[10vh] z-50 bg-primary text-white">
       <a href="#" className="text-2xl relative mr-3">
         PULSE
-        <span>x</span>
+        {/* <span>x</span> */}
       </a>
       <div className="xk:w-1/6 text-cent -mt-4">
         {/* <span className="text-2xl font-bold relative p-1 bg-red-200">LOGO</span> */}
