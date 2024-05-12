@@ -4,11 +4,10 @@ import { RiCloseLine, RiMenu3Fill } from "react-icons/ri";
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
-    <header className="flex items-center justify-between xl:justify-start w-full py-4 px-8 h-[10vh] z-50 bg-primary text-white">
-      <a href="#" className="text-2xl relative mr-3">
-        PULSE
-        {/* <span>x</span> */}
-      </a>
+    <header className="flex border-b items-center justify-between xl:justify-start w-full py-4 px-8 h-[7vh] z-50 bg-primary text-white" style={{borderColor:"#141414"}}>
+      {/* <a href="#" className="text-2xl relative mr-3">
+        <span></span>
+      </a> */}
       <div className="xk:w-1/6 text-cent -mt-4">
         {/* <span className="text-2xl font-bold relative p-1 bg-red-200">LOGO</span> */}
       </div>
@@ -33,7 +32,10 @@ const Header = () => {
           Eventos
         </a>
         <a href="" className="nav-link">
-          PulseGirls
+          Pulsegirls
+        </a>
+        <a href="" className="nav-link">
+          Contacto
         </a>
       </nav>
 
@@ -43,6 +45,7 @@ const Header = () => {
       >
         {showMenu ? <RiCloseLine /> : <RiMenu3Fill />}
       </button>
+      
     </header>
   );
 };

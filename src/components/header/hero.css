@@ -1,0 +1,25 @@
+.nav-link {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+/* .mobile-title {
+  font-size: 13rem; 
+  font-weight: 700;
+  white-space: pre-wrap; 
+  word-break: break-all;
+} */
+@media (min-width: 640px) {
+  .mobile-title{
+  font-size: 2rem; 
+  font-weight: 700;
+  line-height: 1;
+  word-break: break-all;
+  }
+  .iframe-container {
+    display: flex;
+    align-items: center;
+    width: 100%; /* Ajusta el ancho del contenedor para que ocupe todo el ancho disponible */
+    height: 100%; /* Establece la altura automática para mantener la proporción del video */
+  }
+}
